@@ -3,7 +3,7 @@ import logo from "../../assets/image/logo.png"
 import './Header.css';
 const Header = () => {
     return (
-        <div className="navbar bg-emerald-200">
+        <div className="navbar bg-emerald-200 fixed shadow-md  z-50 w-full   py-2 flex justify-between ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
