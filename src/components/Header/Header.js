@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../assets/image/logo.png"
 import './Header.css';
+
 const Header = () => {
     return (
         <div className="navbar bg-white fixed shadow-md  z-50 w-full   py-2 flex justify-between ">
