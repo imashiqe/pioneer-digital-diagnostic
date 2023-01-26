@@ -6,7 +6,7 @@ import  imgfour from "../../../assets/image/Have The Right Jone.jpg"
 import "./Banner.css";
 const Banner = () => {
     return (
-        <div className='pt-10'>
+        <div className='pt-10 shadow-xl'>
                         <div className="carousel w-full">
   <div id="item1" className="carousel-item w-full">
     <img src={imgone} className="w-full imgcustom" />
