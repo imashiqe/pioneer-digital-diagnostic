@@ -57,12 +57,12 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <h3>
-    Phone: 
+    <h3 className='text-white px-10 text-1xl'>
+ Call Now: +88 01889991000 <br></br> Email : info@pioneerhsbd.com.
 
     </h3>
 
-    <h3>    Email:</h3>
+
   </div>
 </div>
     );
