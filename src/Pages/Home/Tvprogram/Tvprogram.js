@@ -4,14 +4,14 @@ import Iframe from 'react-iframe';
 const Tvprogram = () => {
     return (
         <div className='container mx-auto'>
-            <h3 className='text-center text-4xl pt-5 pb-5'>TV Program</h3>
+            <h3 className='text-center  pt-5 pb-5  font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-red-800 to-red-200'>TV Program</h3>
 
             <div className='grid grid-cols-1'>
-            <div className="card lg:card-side bg-base-100 shadow-xl">
+            <div className="card  bg-base-100 shadow-xl">
   <figure>
     <Iframe
     url="https://www.youtube.com/embed/e6xTie2sL0Q"
-    width="400"
+    width="800px"
     height="400px"
     >
          
