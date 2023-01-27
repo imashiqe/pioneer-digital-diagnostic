@@ -47,7 +47,7 @@ const Header = () => {
         <ul className="p-2 bg-green-300">
           <Link to='ourspeech' className='hover:text-green-600'>Our Speech</Link>
           <Link to='company' className='hover:text-green-600'>Company Profile</Link>
-          <Link className='hover:text-green-600'>Legal Papers</Link>
+          <Link  to='legal' className='hover:text-green-600'>Legal Papers</Link>
 
           
         </ul>

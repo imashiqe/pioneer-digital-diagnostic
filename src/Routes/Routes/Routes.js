@@ -4,6 +4,7 @@ import CompanyProfile from "../../Pages/CompanyProfile/CompanyProfile";
 import Contactus from "../../Pages/Contactus/Contactus";
 import HealthCard from "../../Pages/HealthCard/HealthCard";
 import Home from "../../Pages/Home/Home";
+import Legalpaper from "../../Pages/Legalpaper/Legalpaper";
 import Ourspeech from "../../Pages/Ourspeech/Ourspeech";
 import Training from "../../Pages/Training/Training";
 
@@ -35,6 +36,10 @@ export const routes = createBrowserRouter([
          {
           path: 'company',
           element: <CompanyProfile></CompanyProfile>
+         },
+         {
+          path: 'legal',
+          element: <Legalpaper></Legalpaper>
          }
       ]
     },
