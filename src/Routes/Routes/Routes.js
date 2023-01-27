@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
+import CompanyProfile from "../../Pages/CompanyProfile/CompanyProfile";
 import Contactus from "../../Pages/Contactus/Contactus";
 import HealthCard from "../../Pages/HealthCard/HealthCard";
 import Home from "../../Pages/Home/Home";
@@ -30,6 +31,10 @@ export const routes = createBrowserRouter([
          {
           path:'ourspeech',
           element: <Ourspeech></Ourspeech>
+         },
+         {
+          path: 'company',
+          element: <CompanyProfile></CompanyProfile>
          }
       ]
     },
