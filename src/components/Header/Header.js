@@ -36,7 +36,7 @@ const Header = () => {
           <li><a>Submenu 2</a></li>
         </ul>
       </li>
-      <li><a>Training</a></li>
+      <Link to='training'>Training</Link>
       <li tabIndex={0}>
         <a>
          About Us
