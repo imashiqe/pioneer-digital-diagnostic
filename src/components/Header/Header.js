@@ -48,7 +48,7 @@ const Header = () => {
         </ul>
       </li>
 
-      <li><a>Contact Us</a></li>
+      <Link to='contact'>Contact Us</Link>
     </ul>
   </div>
   <div className="navbar-end">
