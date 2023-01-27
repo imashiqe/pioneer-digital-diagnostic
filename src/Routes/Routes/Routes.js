@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
 import CompanyProfile from "../../Pages/CompanyProfile/CompanyProfile";
 import Contactus from "../../Pages/Contactus/Contactus";
+import Error404 from "../../Pages/Error404/Error404";
 import HealthCard from "../../Pages/HealthCard/HealthCard";
 import Home from "../../Pages/Home/Home";
 import Legalpaper from "../../Pages/Legalpaper/Legalpaper";
@@ -43,6 +44,10 @@ export const routes = createBrowserRouter([
          }
       ]
     },
+    {
+      path: '*',
+      element: <Error404></Error404>
+    }
 
 
 ]);
