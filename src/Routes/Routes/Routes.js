@@ -3,6 +3,7 @@ import Main from "../../layout/Main";
 import Contactus from "../../Pages/Contactus/Contactus";
 import HealthCard from "../../Pages/HealthCard/HealthCard";
 import Home from "../../Pages/Home/Home";
+import Ourspeech from "../../Pages/Ourspeech/Ourspeech";
 import Training from "../../Pages/Training/Training";
 
 export const routes = createBrowserRouter([
@@ -25,6 +26,10 @@ export const routes = createBrowserRouter([
          {
           path:'contact',
           element: <Contactus></Contactus>
+         },
+         {
+          path:'ourspeech',
+          element: <Ourspeech></Ourspeech>
          }
       ]
     },
