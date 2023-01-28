@@ -62,7 +62,8 @@ const Header = () => {
   </div>
   <div className="navbar-end">
     <h3 className='text-white px-10 text-1xl'>
- Call Now: +88 01889991000 <br></br> Email : info@pioneerhsbd.com
+  <button className="btn border-none bg-gradient-to-r from-green-800 to-green-400 shadow-xl text-white ">Make Appointment</button>
+
 
     </h3>
 
