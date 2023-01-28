@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
+import Allservices from "../../Pages/Allservices/Allservices";
 import CompanyProfile from "../../Pages/CompanyProfile/CompanyProfile";
 import Contactus from "../../Pages/Contactus/Contactus";
 import Error404 from "../../Pages/Error404/Error404";
@@ -41,6 +42,10 @@ export const routes = createBrowserRouter([
          {
           path: 'legal',
           element: <Legalpaper></Legalpaper>
+         },
+         {
+          path: 'allservices',
+          element: <Allservices></Allservices>
          }
       ]
     },

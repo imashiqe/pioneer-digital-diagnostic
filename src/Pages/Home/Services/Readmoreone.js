@@ -7,7 +7,7 @@ const Readmoreone = () => {
                 min={100}
                 ideal={200}
                 max={500}
-                readMoreText="read more"/>
+                readMoreText="Read more"/>
     );
 };
 
