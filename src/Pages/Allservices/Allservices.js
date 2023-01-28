@@ -3,6 +3,9 @@ import ourdoctor from '../../assets/image/our doctor.jpg'
 import diagnostic from '../../assets/image/history-of-ultrasound.jpg'
 import card from '../../assets/image/card.jpg'
 import fastaid from '../../assets/image/fast aid.jpg'
+import homeservice from '../../assets/image/homesr.png'
+import emergency from '../../assets/image/emergency.jpeg'
+import vaccine from '../../assets/image/vaccine.jpg'
 const Allservices = () => {
     return (
         <div className='top grid lg:grid-cols-3  sm:grid-cols-2 grid-cols-1   container  mx-auto'>
@@ -44,7 +47,7 @@ const Allservices = () => {
 </div>
 
 <div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-red-500 mx-5">
-  <figure><img src={ourdoctor} alt="Movie"/></figure>
+  <figure><img src={homeservice} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">হোম সার্ভিস চিকিৎসা</h2>
     <p>ব্যস্ত এই শহরের সম্মানিত রোগীগনের সময় ও জীবন বাঁচাতে আমরা ভ্যাকসিন , স্যালাইন ও ইনজেকশন পুশিং , ডায়াগনষ্টিক টেষ্টের জন্য রক্ত-মল – মূত্র সংগ্রহ, রিপোর্ট পৌঁছান, ক্যাথাটার লাগানো ও খোলা , অপারেশনের সেলাই কাটা, ক্ষত স্থান ড্রেসিং, নেভুলাইজার দেয়া , প্রেশার মাপা এবং ইসিজি করানোসহ সম্ভাব্য সেবা সংশ্লিষ্ট বিষয়ে দক্ষ মহিলা / পুরুষ স্টাপের মাধ্যমে সহজ শর্তে বাসায় গিয়ে আন্তরিকভাবে দিয়ে থাকি । বিশেষ প্রয়োজনে ডাক্তারের মাধ্যমে হোম সার্ভিস চিকিৎসা দেয়া হয়।</p>
@@ -53,7 +56,7 @@ const Allservices = () => {
 </div>
 
 <div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-green-500 mx-5">
-  <figure><img src={ourdoctor} alt="Movie"/></figure>
+  <figure><img src={emergency} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">জরুরী সেবা</h2>
     <p>হঠাৎ অসুস্থতা, দুর্ঘটনা , কাটা-ছেড়ায় জরুরী ভিত্তিতে অভিজ্ঞ ডাক্তারের মাধ্যমে চিকিৎসা সেবা দেয়া হয়।</p>
@@ -71,7 +74,7 @@ const Allservices = () => {
 </div>
 
 <div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-green-500  mx-5 ">
-  <figure><img src={ourdoctor} alt="Movie"/></figure>
+  <figure><img src={vaccine} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">ভ্যাকসিন (টিকা ) সেন্টার</h2>
     <p>সিটি কর্পোরেশন ও দেশী-বিদেশী ভ্যাকসিন সরবরাহকারী প্রতিষ্ঠানের সহায়তায় টিটি,কুকুরে কামড়ে জলাতংক, হেপাটাইটিস এ ও বি , টাইফিয়েড , নিউমোনিয়া প্রতিরোধক সহ প্রয়োজনীয় সকল প্রকার টিকা দেয়ার ব্যবস্থা আছে। যা সুস্থ্য থাকতে সকলের দরকার । বিশেষ করে নবজাতাক শিশু, গর্ভবতী মা , কিশোরী, বিদেশগামী, পবিত্র হজ্জ বা ওমরাহ গমনেচ্ছুক গনের জন্য একান্ত প্রয়োজন। </p>

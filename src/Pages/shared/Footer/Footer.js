@@ -1,5 +1,6 @@
 import React from 'react';
 import Iframe from 'react-iframe';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,16 +8,24 @@ const Footer = () => {
             <footer className="footer p-10 bg-base-200 text-base-content">
   <div>
     <span className="footer-title">Sitemap</span> 
-    <a className="link link-hover">Company Profile</a> 
-    <a className="link link-hover">Contact Us</a> 
-    <a className="link link-hover">Doctor List</a> 
-    <a className="link link-hover">Health Card</a>
-    <a className="link link-hover">Legal Papers</a>
-    <a className="link link-hover">Medical Lab Test</a>
-    <a className="link link-hover">Our All Services</a>
-    <a className="link link-hover">Our Speech</a>
-    <a className="link link-hover">Vaccine Prices</a>
-    <a className="link link-hover">Home</a>
+    <Link to='company'>Company Profile</Link>
+    <Link to='contact'>Contact Us</Link>
+    <Link>Doctor List</Link>
+    <Link to='HealthCard'>Health Card</Link>
+    <Link to='legal'>Legal Papers</Link>
+    <Link>Medical Lab Test</Link>
+    <Link to='allservices'>Our All Services</Link>
+    <Link to='ourspeech'>Our Speech</Link>
+    <Link>Vaccine Prices</Link>
+    <Link to='/'>Home</Link>
+   
+  
+
+  
+  
+
+  
+ 
   </div> 
   <div>
     <span className="footer-title">Location</span> 
