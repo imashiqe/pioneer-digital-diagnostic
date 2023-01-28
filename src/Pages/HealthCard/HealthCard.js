@@ -1,9 +1,10 @@
 import React from 'react';
 import './HealthCard.css';
 import card from "../../assets/image/card.jpg"
+
 const HealthCard = () => {
     return (
-        <div className='grid grid-cols-1 top'>
+        <div className='grid grid-cols-1 top py-10'>
             <div className="card   shadow-xl">
   <figure className=" pt-10">
     <img src={card} alt="Card" className="rounded-xl" />

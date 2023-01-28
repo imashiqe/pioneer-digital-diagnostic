@@ -1,9 +1,12 @@
 import React from 'react';
 import ourdoctor from '../../assets/image/our doctor.jpg'
+import diagnostic from '../../assets/image/history-of-ultrasound.jpg'
+import card from '../../assets/image/card.jpg'
+import fastaid from '../../assets/image/fast aid.jpg'
 const Allservices = () => {
     return (
-        <div className='top grid grid-cols-1 container  mx-auto'>
-            <div className="card card-side bg-base-100 shadow-xl border border-y-4 border-green-500">
+        <div className='top grid lg:grid-cols-3  sm:grid-cols-2 grid-cols-1   container  mx-auto'>
+            <div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-green-500 mx-5">
   <figure><img src={ourdoctor} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">বিশেষজ্ঞ ডাক্তার সেবা</h2>
@@ -17,8 +20,8 @@ const Allservices = () => {
 </div>
 
 
-<div className="card card-side bg-base-100 shadow-xl my-10 border border-y-4 border-red-500">
-  <figure><img src={ourdoctor} alt="Movie"/></figure>
+<div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-red-500 mx-5">
+  <figure><img src={diagnostic} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">ডায়াগনস্টিক সেবা</h2>
     <p>ইতালিসহ উন্নত বিশ্বের অত্যাধুনিক প্রযুক্তির যন্ত্রপতি ও রি এজেন্ট দ্বারা রক্ত,মল , মুত্র ও কফসহ মানব শরিরের বিভিন্ন উপাদান  পরীক্ষা করা হয়।
@@ -30,8 +33,8 @@ const Allservices = () => {
   </div>
 </div>
 
-<div className="card card-side bg-base-100 shadow-xl my-10 border border-y-4 border-green-500">
-  <figure><img src={ourdoctor} alt="Movie"/></figure>
+<div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-green-500 mx-5">
+  <figure><img src={card} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">পাইওনিয়ার হেলথ কার্ড</h2>
     <p>যুক্তরাষ্ট্র, কানাডা ও অস্ট্রোলিয়ার মত ‍উন্নত রাষ্ট্রের ন্যায় পাইওনিয়ার হেলথ কার্ডের মাধ্যমে ৫-৫০% পর্যন্ত ডিসকাউন্ট সুবিধায় চিকিৎসা সেবা দেয়া হয়।
@@ -40,7 +43,7 @@ const Allservices = () => {
   </div>
 </div>
 
-<div className="card card-side bg-base-100 shadow-xl my-10 border border-y-4 border-red-500">
+<div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-red-500 mx-5">
   <figure><img src={ourdoctor} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">হোম সার্ভিস চিকিৎসা</h2>
@@ -49,7 +52,7 @@ const Allservices = () => {
   </div>
 </div>
 
-<div className="card card-side bg-base-100 shadow-xl my-10 border border-y-4 border-green-500">
+<div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-green-500 mx-5">
   <figure><img src={ourdoctor} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">জরুরী সেবা</h2>
@@ -58,8 +61,8 @@ const Allservices = () => {
   </div>
 </div>
 
-<div className="card card-side bg-base-100 shadow-xl my-10 border border-y-4 border-red-500">
-  <figure><img src={ourdoctor} alt="Movie"/></figure>
+<div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-red-500 mx-5 ">
+  <figure><img src={fastaid} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">ফাস্ট এইড ট্রেনিং সেন্টার</h2>
     <p>সাধারন মানুষের জন্য এমন একটি প্রশিক্ষন যাতে তারা হঠাৎ অজ্ঞান , হার্ট এ্যাটাক, ফিট হওয়া , আগুনে পুড়ে যাওয়া , পানিতে ডুবে যাওয়া, সাপের কামড়, ইলেক্ট্রিক সকের মত দুর্ঘটনায় আহত বা অসুস্থতায় ডাক্তারের চিকিৎসা নেয়ার পূর্বে নিজেকে বা প্রিয়জনকে বাঁচানোর বা কষ্ট কমানোর কৌশল জানতে ও শিখতে পারে । সহজ ‍উপায়ে এবং স্বপ্ন মূল্য আমরা ফাস্ট এইড ট্রেনিং দিয়ে থাকি।</p>
@@ -67,11 +70,11 @@ const Allservices = () => {
   </div>
 </div>
 
-<div className="card card-side bg-base-100 shadow-xl my-10 border border-y-4 border-green-500">
+<div className="card  bg-base-100 shadow-xl my-10 border border-y-4 border-green-500  mx-5 ">
   <figure><img src={ourdoctor} alt="Movie"/></figure>
   <div className="card-body">
     <h2 className="card-title text-green-500">ভ্যাকসিন (টিকা ) সেন্টার</h2>
-    <p>সিটি কর্পোরেশন ও দেশী-বিদেশী ভ্যাকসিন সরবরাহকারী প্রতিষ্ঠানের সহায়তায় টিটি,কুকুরে কামড়ে জলাতংক, হেপাটাইটিস এ ও বি , টাইফিয়েড , নিউমোনিয়া প্রতিরোধক সহ প্রয়োজনীয় সকল প্রকার টিকা দেয়ার ব্যবস্থা আছে। যা সুস্থ্য থাকতে সকলের দরকার । বিশেষ করে নবজাতাক শিশু, গর্ভবতী মা , কিশোরী, বিদেশগামী, পবিত্র হজ্জ বা ওমরাহ গমনেচ্ছুক গনের জন্য একান্ত প্রয়োজন। my-10 border border-y-4 border-indigo-500</p>
+    <p>সিটি কর্পোরেশন ও দেশী-বিদেশী ভ্যাকসিন সরবরাহকারী প্রতিষ্ঠানের সহায়তায় টিটি,কুকুরে কামড়ে জলাতংক, হেপাটাইটিস এ ও বি , টাইফিয়েড , নিউমোনিয়া প্রতিরোধক সহ প্রয়োজনীয় সকল প্রকার টিকা দেয়ার ব্যবস্থা আছে। যা সুস্থ্য থাকতে সকলের দরকার । বিশেষ করে নবজাতাক শিশু, গর্ভবতী মা , কিশোরী, বিদেশগামী, পবিত্র হজ্জ বা ওমরাহ গমনেচ্ছুক গনের জন্য একান্ত প্রয়োজন। </p>
    
   </div>
 </div>

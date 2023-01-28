@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ourspeech = () => {
     return (
-        <div className='top grid grid-cols-1 container mx-auto '>
+        <div className='top grid grid-cols-1 container mx-auto py-10'>
              <div className="card  bg-base-100 shadow-xl">
   <div className="card-body">
     <h2 className="card-title justify-center text-4xl text-green-600">Our Speech</h2>

@@ -8,7 +8,7 @@ const Error404 = () => {
     return (
         <div >
           <Header></Header>
-            <div className='grid grid-cols-1 container mx-auto top'>
+            <div className='grid grid-cols-1 container mx-auto top py-10'>
             <div className="card lg:card-side bg-base-100 shadow-xl">
   <figure><img src={error} alt="Album"/></figure>
   <div className="card-body top">

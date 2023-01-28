@@ -3,7 +3,7 @@ import Iframe from 'react-iframe';
 
 const Contactus = () => {
     return (
-        <div className='top grid  grid-cols-1 container mx-auto'>
+        <div className='top grid  grid-cols-1 container mx-auto py-10'>
             <div className="card    bg-base-100 shadow-xl">
   <div className="card-body items-center">
     <h2 className="card-title text-4xl  text-green-600">Pioneer Digital Diagnostic</h2>

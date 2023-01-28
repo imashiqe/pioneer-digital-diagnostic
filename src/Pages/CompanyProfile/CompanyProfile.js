@@ -2,7 +2,7 @@ import React from 'react';
 import md from '../../assets/image/md_pic.jpg'
 const CompanyProfile = () => {
     return (
-        <div className='top grid  grid-cols-1 container mx-auto'>
+        <div className='top grid  grid-cols-1 container mx-auto py-10'>
             <div className="card card-side bg-base-100 ">
   <figure><img className='pt-10' src={md} alt="Anwar Hossain (Faruq)"/></figure>
   <div className="card-body">
