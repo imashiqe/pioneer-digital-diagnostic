@@ -7,9 +7,9 @@ const Contactus = () => {
             <div className="card    bg-base-100 shadow-xl">
   <div className="card-body items-center">
     <h2 className="card-title text-4xl  text-green-600">Pioneer Digital Diagnostic</h2>
-    <p>হক প্লাজা, বাড়ি # বি ২৫৬, রোড # ৭, নিমাই কাশারী, সানারপাড়, সিদ্ধিরগঞ্জ, নারায়ণগঞ্জ</p>
+    <p>সোনামিয়া মার্কেট কলেজ রোড সানারপাড় সিদ্ধিরগঞ্জ নারায়ণগঞ্জ</p>
     <h3 className="card-title ">Mobile: +88 01889991000, +88 01755501099</h3>
-    <h3 className="card-title ">E-mail: info@pioneerhsbd.com.</h3>
+    <h3 className="card-title ">E-mail: info@pioneerhsbd.com</h3>
     <h3 className="card-title ">Facebook: Pioneer Digital Diagnostic</h3>
     <h3 className="card-title ">Skype ID: pioneerhsbd
 Web: www.pioneerhsbd.com</h3>
