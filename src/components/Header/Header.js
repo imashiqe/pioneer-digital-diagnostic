@@ -16,7 +16,11 @@ const Header = () => {
         <Link to="HealthCard">HealthCard</Link>
         <Link to='training'>Training</Link>
         <Link to='contact'>Contact Us</Link>
-     
+        <Link to='allservices' className='hover:text-green-600'>All Services</Link>
+        <Link to='ourspeech' className='hover:text-green-600'>Our Speech</Link>
+        <Link to='company' className='hover:text-green-600'>Company Profile</Link>
+        <Link  to='legal' className='hover:text-green-600'>Legal Papers</Link>
+        <Link to='contact' className='pt-3'>Contact Us</Link>
       </ul>
     </div>
       <Link to='/'><img className='logo' src={logo} /></Link>
