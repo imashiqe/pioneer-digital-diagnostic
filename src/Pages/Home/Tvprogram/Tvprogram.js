@@ -7,13 +7,14 @@ const Tvprogram = () => {
         <div className='container mx-auto'>
             <h3 className='text-center  pt-5 pb-5  font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-red-800 to-red-200'>TV Program</h3>
 
-            <div className='grid grid-cols-1  lg:grid-cols-2 md:grid-cols-1'>
+            <div className='grid grid-cols-1 mx-5  lg:mx-0  lg:grid-cols-2 md:grid-cols-1'>
             <div className="card  bg-base-100 shadow-xl">
   <figure>
     <Iframe
     url="https://www.youtube.com/embed/e6xTie2sL0Q"
     width="800px"
     height="600px"
+   
     >
          
     </Iframe>
